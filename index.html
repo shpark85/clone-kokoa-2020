@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="css/styles.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Welcome to KOKOA Talk</title>
@@ -8,16 +9,19 @@
     <body>
         <!--Section: Status-Bar-->
         <div class="status-bar">
-            <div class="status-bar__column"></div>
+            <div class="status-bar__column">
                 <span>No Service</span>
                 <i class="fas fa-wifi"></i>             <!-- WiFi Icon -->
-            <div class="status-bar__column"></div>
+            </div>
+            <div class="status-bar__column">
                 <span>18:43</span>
                 <!-- To Do: nothing -->
-            <div class="status-bar__column"></div>
-                <span>11%</span>
-                <i class="fas fa-battery-half"></i>     <!-- Battery Icon -->
-                <i class="fas fa-bolt"></i>             <!-- To Do: Lightning Icon -->
+            </div>
+            <div class="status-bar__column">
+                <span>50%</span>
+                <i class="fas fa-battery-half fa-lg"></i>     <!-- Battery Icon -->
+                <i class="fas fa-bolt"></i>             <!-- Lightning Icon -->
+            </div>
         </div>
 
         <!--Section: Header-->
@@ -27,9 +31,9 @@
         </header>
 
         <!--Section: Form-->
-        <form class="login-form">
-            <input type="text" placeholder="Email of phone number"">
-            <input type="password" placeholder="Password">
+        <form action="friends.html" method="get" class="login-form">
+            <input name="username" type="text" placeholder="Email of phone number"">
+            <input name="password" type="password" placeholder="Password">
             <input type="submit" value="Log In" />
             <input type="submit" value="Sign Up" />
             <a href="#">Find Kakao Account or Password</a>
