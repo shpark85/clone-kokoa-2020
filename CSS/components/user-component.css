@@ -18,6 +18,13 @@
   font-size: 16px;
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.3);
+  display: inline;
+}
+.user-component__badge {
+  display: inline-block;
+}
+.user-badge span {
+  color: white;
 }
 .user-component__photo {
   object-fit: cover;

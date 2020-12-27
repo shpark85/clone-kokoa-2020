@@ -1,0 +1,26 @@
+.settings-list:last-child {
+  border-top: var(--border-line);
+}
+.settings__setting {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.7);
+  justify-content: space-between;
+}
+.settings__setting:last-child {
+  border-bottom: 0px solid rgba(0, 0, 0, 0.04);
+}
+.settings__setting i {
+  margin-right: 20px;
+  display: inline-block;
+  width: 20px;
+}
+.setting__setting-column:last-child {
+  opacity: 0.5;
+}
+.settings-list:nth-child(2) {
+  margin-top: 10px;
+}

@@ -6,14 +6,20 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
-@import "components/friends.css";
 @import "components/user-component.css";
 @import "components/badge.css";
-@import "components/find.css";
+@import "components/icon-row.css";
+@import "components/welcome-header.css";
+@import "components/alt-screen-header.css";
 
 /* Screens */
 @import "screens/login-form.css";
-@import "screens/welcome-header.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chats.css";
+@import "screens/chat.css";
 
 body {
   color: #2f363e;
