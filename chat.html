@@ -45,13 +45,52 @@
 
 
         <!--Section: Main-->
-        <main class="main-screen">
+        <main class="main-screen main-chat">
+            <div class="chat__timestamp">
+                Tuesday, June 30, 2020
+            </div>
+
+            <div class="message-row">
+                <img src="./image_source/Jennie.jpg">
+                <div class="message-row__content">
+                    <span class="message-row__author">Jennie</span>
+                    <div class="message-row__payload">
+                        <span class="message-row__bubble">
+                            Hi!
+                        </span>
+                        <span class="message-row__time">21:27</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="message-row message-row__own">
+                <div class="message-row__content">
+                    <div class="message-row__payload">
+                        <span class="message-row__bubble">
+                            Holla! Nice to meet ya!
+                        </span>
+                        <span class="message-row__time">21:27</span>
+                    </div>
+                </div>
+            </div>
 
         </main>
         
 
-
         <!--Section: Form-->
+
+        <form class="reply">
+            <div class="reply__column"><i class="far fa-plus-square fa-lg"></i></div>
+            <div class="reply__column">
+                <input type="text" placeholder="Write a message..." />
+                <i class="far fa-smile-beam fa-lg"></i>
+                <button>
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+
+        </form>
+
 
 
 
